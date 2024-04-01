@@ -38,6 +38,7 @@ class HomeScreen extends StatelessWidget {
                     color: Colors.black,
                     width: 100,
                     height: 100,
+                    child: Image.asset('asset/images/godsay.jpeg'),
                   ),
                 ],
               );

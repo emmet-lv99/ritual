@@ -3,6 +3,8 @@
 - 손 풀기용. 몰입용.
 - 창의적이지 말 것. 익숙해지도록 할 것.
 
+[] make branch
+
 [] set folder tree
     [] add asset folder
     [] add view folder

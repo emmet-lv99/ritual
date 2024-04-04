@@ -3,20 +3,23 @@
 - 손 풀기용. 몰입용.
 - 창의적이지 말 것. 익숙해지도록 할 것.
 
-[] make folder tree 
-    [] add asset folder
-    [] add view folder
-    [] add model folder
+[v] make folder tree 
+    [v] add asset folder
+    [v] add view folder
+    [v] add model folder
 
-[] set asset test
-    [] pubspec.yaml - add font / image 
-    [] main.dart - add themeData
+[v] set asset test
+    [v] pubspec.yaml - add font / image 
+    [v] main.dart - add themeData
  
-[] add homeScreen
-    [] make Image widget & load image file
-    [] make Text widget & check themeData font family
+[v] add homeScreen
+    [v] make Image widget & load image file
+    [v] make Text widget & check themeData font family
 
-[] add sample model
-    [] make class
+[v] add sample model
+    [v] make class 
+        class 내부의 멤버 변수는 final 로 선언 가능.
+        class 내부에서는 선언 상태고, 아직 사용한 것이 아니기 때문에 선언만 된 상태다.
+        
 
 [] http req / res test

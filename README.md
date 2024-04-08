@@ -19,5 +19,7 @@
     [] make class
         class 내부의 멤버 변수는 final 로 선언 가능.
         class 내부에서는 선언 상태고, 아직 사용한 것이 아니기 때문에 선언만 된 상태다.
+    [] factory + named constructor
+        fromJson 구현
 
 [] http req / res test

@@ -3,17 +3,17 @@
 - 손 풀기용. 몰입용.
 - 창의적이지 말 것. 익숙해지도록 할 것.
 
-[] set folder tree
-    [] add asset folder
-    [] add view folder
-    [] add model folder
+[v] set folder tree
+    [v] add asset folder
+    [v] add view folder
+    [v] add model folder
 
-[] set asset & make home screen
-    [] pubspec.yaml - add font / image
-    [] add homeScreen
-    [] main.dart - add themeData
-    [] make Image widget & load image file
-    [] make Text widget & check themeData font family
+[v] set asset & make home screen
+    [v] pubspec.yaml - add font / image
+    [v] add homeScreen
+    [v] main.dart - add themeData
+    [v] make Image widget & load image file
+    [v] make Text widget & check themeData font family
 
 [] add sample model
     [] make class

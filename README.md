@@ -23,3 +23,4 @@
         fromJson 구현
 
 [] http req / res test
+    [] flutter pub add http

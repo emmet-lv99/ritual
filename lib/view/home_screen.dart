@@ -13,7 +13,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  List<Sample> resMapList = [];
+  List<Sample> resMapList = List.empty(growable: true);
   @override
   void initState() {
     void loadApi() async {
@@ -26,6 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
     }
 
     loadApi();
+
     super.initState();
   }
 

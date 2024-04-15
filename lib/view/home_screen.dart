@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:http/http.dart';
 import 'package:my_ritual/model/data_model.dart';
 import 'package:my_ritual/repository/data_repository.dart';
 

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_ritual/model/data_model.dart';
 import 'package:my_ritual/repository/data_repository.dart';
+import 'package:my_ritual/view/sample_page.dart';
 
 class Model {
   // 멤버 변수 / 선언만 해놓은 상태 null
@@ -81,6 +82,13 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Column(
               children: [
                 Image.asset('asset/images/sample.jpeg'),
+                ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (_) => SamplePage()));
+                  },
+                  child: Text('MOVE'),
+                ),
                 Text(
                   'Hello Wolrd',
                   style: TS.copyWith(fontSize: 40, fontWeight: FontWeight.w900),
